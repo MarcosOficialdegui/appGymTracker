@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="border-t border-gray-300 bg-white text-black">
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
 
-        {/* Marca */}
+        
         <div>
           <h2 className="text-2xl font-bold tracking-wide">Athletica</h2>
           <p className="text-gray-600 mt-3 text-sm leading-relaxed">
@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Navegación */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-3">Secciones</h3>
           <ul className="space-y-2 text-gray-700">
@@ -22,7 +22,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Recursos */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-3">Recursos</h3>
           <ul className="space-y-2 text-gray-700">
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Información legal */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-3">Legal</h3>
           <ul className="space-y-2 text-gray-700">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Línea y copyright */}
+      
       <div className="border-t border-gray-300 py-4 text-center text-gray-600 text-sm">
         © {new Date().getFullYear()} Athletica — Todos los derechos reservados.
       </div>

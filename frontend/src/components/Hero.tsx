@@ -22,7 +22,7 @@ const Hero = () => {
         alt="Hero"
         className="absolute inset-0 w-full h-full object-cover transition-all duration-700"
         style={{
-          objectPosition: "center 20%", // Levanta un poco la imagen
+          objectPosition: "center 20%", 
         }}
       />
 

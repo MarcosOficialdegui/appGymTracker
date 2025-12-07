@@ -6,10 +6,10 @@ const Home = () => {
     <div className="bg-white text-black">
 
       {/* HERO */}
-     <Hero></Hero>
+      <Hero />
 
       {/* BENEFICIOS */}
-      <section className="py-20 px-6 max-w-7xl mx-auto">
+      <section className="py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-14">
           ¿Qué ofrece Athletica?
         </h2>
@@ -72,7 +72,7 @@ const Home = () => {
       </section>
 
       {/* CTA FINAL */}
-      <section className="py-24 px-6 text-center">
+      <section className="py-24 px-6 text-center max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           ¿Listo para mejorar tu entrenamiento?
         </h2>
@@ -90,4 +90,3 @@ const Home = () => {
 };
 
 export default Home;
-

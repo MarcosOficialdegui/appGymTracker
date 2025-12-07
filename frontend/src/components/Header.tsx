@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="border-b border-black/10 bg-white">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
         
         
         <div className="text-2xl font-semibold tracking-tight text-black">
